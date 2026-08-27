@@ -184,7 +184,7 @@ export default function CinematicHero({
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-4">
         <div className="border-t border-white/10 pt-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           {/* 01, 02, 03, 04 Scene Dock */}
-          <div className="flex items-center gap-2 sm:gap-4 overflow-x-auto w-full md:w-auto pb-2 md:pb-0">
+          <div className="flex items-center gap-2 sm:gap-4 overflow-x-auto w-full pb-2 md:pb-0">
             {HERO_SCENES.map((scene, idx) => {
               const isActive = idx === activeSceneIndex;
               return (
@@ -217,18 +217,6 @@ export default function CinematicHero({
                 </button>
               );
             })}
-          </div>
-
-          {/* Live Metric Tickers */}
-          <div className="flex items-center gap-4 text-[11px] font-mono-cad text-[#D0C9BD] self-end md:self-auto">
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded bg-[#17181C] border border-white/5">
-              <Users className="w-3.5 h-3.5 text-[#C5A880]" />
-              <span>3,500+ Capacity Engaged</span>
-            </div>
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded bg-[#17181C] border border-white/5">
-              <Zap className="w-3.5 h-3.5 text-[#C5A880]" />
-              <span>100% Zero-Downtime Guarantee</span>
-            </div>
           </div>
         </div>
       </div>

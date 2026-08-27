@@ -19,7 +19,7 @@ export const HERO_SCENES: HeroScene[] = [
     subtitle: 'Lakeside Palace Buyout & Candlelit Metamorphosis',
     category: 'ROYAL DESTINATION WEDDING',
     location: 'Lake Pichola, Udaipur',
-    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=2000&q=85',
+    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85',
     specs: {
       area: '48,000 sq.ft Courtyard',
       lumens: '2,400K Candlelight Lumens',
@@ -36,7 +36,7 @@ export const HERO_SCENES: HeroScene[] = [
     subtitle: 'Vedic Sanctum with Hand-Carved Teakwood & 24K Gold Foil Accents',
     category: 'SACRED VEDIC RITUALS',
     location: 'Taj Falaknuma, Hyderabad',
-    image: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=2000&q=85',
+    image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=2000&q=85',
     specs: {
       area: '32,000 sq.ft Durbar Terrace',
       lumens: '2,200K Temple Diya Ambiance',
@@ -169,7 +169,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Bangles, blessings, and lush green banana-stem floral sanctum',
     description: 'Celebrating motherhood with auspicious green and gold palettes, floral cradle displays, glass bangle trees, brass lamp pathways, and traditional Vedic chanting acoustic setup.',
-    image: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1200&q=85',
+    image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=85',
     setupTime: '6 Hours Build',
     budgetRange: '₹3.5L – ₹9.5L',
     guestScale: '100 – 250 Guests',
@@ -476,7 +476,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Ancient temple courtyard ambiance with sacred dhwajasthambham and brass bells',
     description: 'Creating temple-grade sacred environments with real granite aesthetics, bronze bells, thousands of clay diyas, and authentic Agamic ritual infrastructure.',
-    image: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1200&q=85',
+    image: 'https://images.unsplash.com/photo-1545232979-fbf68fe9b10d?auto=format&fit=crop&w=1200&q=85',
     setupTime: '18 Hours Build',
     budgetRange: '₹6L – ₹20L',
     guestScale: '200 – 800 Guests',
@@ -511,7 +511,7 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     coverImage: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=85',
     gallery: [
       'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1200&q=85',
+      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
       'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85',
       'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85'
     ],
@@ -549,11 +549,11 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '2 Days • 4 Auspicious Muhurthams',
     budgetRange: '₹75L – ₹1.4Cr',
     archetype: 'Sacred Traditional Ceremony',
-    coverImage: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1600&q=85',
+    coverImage: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1600&q=85',
     gallery: [
-      'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1200&q=85',
       'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=85'
+      'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=85',
+      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85'
     ],
     clientNames: 'Dr. Siddharth & Keerthi Rao',
     clientQuote: 'Our elders were moved to tears by the authenticity of the Vedic mandapam. The 28-item traditional banana leaf bhojanam was perfection.',
@@ -757,7 +757,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       'Kanchi & Tirupati Classical Nadaswaram Troupes',
       'Auspicious Muhurtham Minute-by-Minute Run of Show'
     ],
-    image: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1000&q=85',
+    image: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1000&q=85',
     leadArchitect: 'Vidwan S. Sundaram, Vedic Rituals Advisor'
   },
   {
@@ -847,7 +847,7 @@ export const METAMORPHOSIS_VENUES: MetamorphosisVenue[] = [
     location: 'Taj Falaknuma, Hyderabad',
     subtitle: 'From Bare Lawn to 24K Gold Foil & Cascading Jasmine Temple Sanctum',
     beforeImage: 'https://images.unsplash.com/photo-1584467735815-f778f274e296?auto=format&fit=crop&w=1400&q=80',
-    afterImage: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1400&q=85',
+    afterImage: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1400&q=85',
     beforeDesc: 'Open lawn with harsh afternoon sun and zero shade or spiritual focal point.',
     afterDesc: 'Self-supporting octagonal teakwood mandap with 600kg fresh Madurai jasmine, lotus pools, and shaded VIP pavilions.',
     turnaroundTime: '18 Hours Structural Assembly',
@@ -884,7 +884,7 @@ export const MANDAP_BLUEPRINTS: MandapBlueprint[] = [
     id: 'mandap-1',
     name: 'The Ashta-Lakshmi Teakwood Mandapam',
     style: 'Ancient Dravidian Vedic Sanctum',
-    renderImage: 'https://images.unsplash.com/photo-1609358905594-55444b9148d2?auto=format&fit=crop&w=1200&q=85',
+    renderImage: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
     blueprintImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
     dimensions: {
       height: '18.5 Feet Apex Height',
