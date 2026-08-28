@@ -10,6 +10,7 @@ import {
   ClientReview,
   MuhurthamDate
 } from '../types';
+import { LOCAL_IMAGES } from './imageAssets';
 
 export const HERO_SCENES: HeroScene[] = [
   {
@@ -19,7 +20,7 @@ export const HERO_SCENES: HeroScene[] = [
     subtitle: 'Lakeside Palace Buyout & Candlelit Metamorphosis',
     category: 'ROYAL DESTINATION WEDDING',
     location: 'Lake Pichola, Udaipur',
-    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85',
+    image: LOCAL_IMAGES.sliderImg1,
     specs: {
       area: '48,000 sq.ft Courtyard',
       lumens: '2,400K Candlelight Lumens',
@@ -36,7 +37,7 @@ export const HERO_SCENES: HeroScene[] = [
     subtitle: 'Vedic Sanctum with Hand-Carved Teakwood & 24K Gold Foil Accents',
     category: 'SACRED VEDIC RITUALS',
     location: 'Taj Falaknuma, Hyderabad',
-    image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=2000&q=85',
+    image: LOCAL_IMAGES.sliderImg2,
     specs: {
       area: '32,000 sq.ft Durbar Terrace',
       lumens: '2,200K Temple Diya Ambiance',
@@ -53,7 +54,7 @@ export const HERO_SCENES: HeroScene[] = [
     subtitle: 'Kinetic Ceiling Staging & Bespoke Reflective Glass Runway',
     category: 'SANGEET & COCKTAIL GALA',
     location: 'Samode Palace, Jaipur',
-    image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=2000&q=85',
+    image: LOCAL_IMAGES.sliderImg3,
     specs: {
       area: '55,000 sq.ft Mirror Staging',
       lumens: 'RGBW Laser & Moving Heads',
@@ -70,7 +71,7 @@ export const HERO_SCENES: HeroScene[] = [
     subtitle: 'Classical Drapes, Brass Urli Waterbodies & Royal Chhatri Architecture',
     category: 'GRAND RECEPTION ARCHITECTURE',
     location: 'Bangalore Palace Grounds',
-    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=2000&q=85',
+    image: LOCAL_IMAGES.contemporaryWaterImg,
     specs: {
       area: '70,000 sq.ft Royal Pavilion',
       lumens: 'Warm Architectural Uplighting',
@@ -117,7 +118,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Sunlit yellow turmeric courtyard with brass urli ponds and marigold canopies',
     description: 'A deeply emotional purification ritual styled with authentic South Indian pattu drapery, hand-hammered brass vessels, fresh marigold weaves, and floral shower structures.',
-    image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.haldiImg,
     setupTime: '8 Hours Build',
     budgetRange: '₹4.5L – ₹14L',
     guestScale: '150 – 350 Guests',
@@ -143,7 +144,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'wedding-reception',
     tagline: 'Sacred Jeelakarra Bellam sanctum, hand-carved pillars, and 100% Vedic precision',
     description: 'Authentic South Indian wedding sanctum engineered with zero-smoke homam enclosures, temple kalashams, pure mogra garlands, and flawless coordination for the auspicious muhurtham.',
-    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.vedicMuhurthamImg,
     setupTime: '24 Hours Build',
     budgetRange: '₹14L – ₹45L',
     guestScale: '350 – 1,500 Guests',
@@ -169,7 +170,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Bangles, blessings, and lush green banana-stem floral sanctum',
     description: 'Celebrating motherhood with auspicious green and gold palettes, floral cradle displays, glass bangle trees, brass lamp pathways, and traditional Vedic chanting acoustic setup.',
-    image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.seemanthamImg,
     setupTime: '6 Hours Build',
     budgetRange: '₹3.5L – ₹9.5L',
     guestScale: '100 – 250 Guests',
@@ -195,7 +196,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Regal coming-of-age celebration with royal floral arches and classical grandeur',
     description: 'A celebratory milestone blending timeless temple architecture, pastel floral chandeliers, custom photo pavilions, and vibrant stage backdrops.',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.halfSareeImg,
     setupTime: '10 Hours Build',
     budgetRange: '₹5L – ₹18L',
     guestScale: '200 – 500 Guests',
@@ -221,7 +222,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'wedding-reception',
     tagline: 'Sleek modern elegance with floral botanical tunnels and gold ring structures',
     description: 'A formal commitment ceremony with bespoke acrylic backdrops, cascading wisteria canopies, live instrumental quartet, and champagne/mocktail tower staging.',
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.contemporaryWaterImg,
     setupTime: '14 Hours Build',
     budgetRange: '₹7L – ₹28L',
     guestScale: '250 – 700 Guests',
@@ -247,7 +248,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'stage-production',
     tagline: 'High-energy concert stage, kinetic light grids, and mirror dance floors',
     description: 'Stadium-level sound engineering, computerized beam choreography, VIP lounge pods, and customized cocktail mixology bars for electrifying nights.',
-    image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.sliderImg3,
     setupTime: '36 Hours Build',
     budgetRange: '₹18L – ₹65L',
     guestScale: '350 – 1,200 Guests',
@@ -273,7 +274,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Moroccan fretwork, Persian rugs, hanging lanterns, and live Qawwali setup',
     description: 'An intimate bohemian-royal evening with embroidered shamianas, low baithak cushions, fragrant ittar counters, and artisanal henna lounges.',
-    image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.haldiImg,
     setupTime: '12 Hours Build',
     budgetRange: '₹6L – ₹22L',
     guestScale: '200 – 600 Guests',
@@ -298,7 +299,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'wedding-reception',
     tagline: 'Monumental palace facades, cascading floral water fountains, and 2000+ guest dining',
     description: 'The ultimate statement celebration with colossal multi-level staging, VIP dining enclosures, custom carpeted walkways, and synchronized lighting choreography.',
-    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.sliderImg1,
     setupTime: '48 Hours Build',
     budgetRange: '₹25L – ₹1.2Cr+',
     guestScale: '800 – 3,500 Guests',
@@ -323,7 +324,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Auspicious Vedic homam setup, brass urlis, and traditional temple architecture',
     description: 'Vedic precision with clean smokeless homam pits, pure brass deepams, traditional plantain trees, and authentic banana-leaf bhojanam dining setup.',
-    image: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.upanayanamImg,
     setupTime: '6 Hours Build',
     budgetRange: '₹3L – ₹8.5L',
     guestScale: '100 – 300 Guests',
@@ -348,7 +349,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Welcoming prosperity with cow puja styling, floral thresholds, and rooftop lighting',
     description: 'Transforming newly built homes with auspicious entrance thoranams, sacred rangoli art, facade fairy light cascades, and intimate guest dining arrangements.',
-    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.mandapBlueprintImg,
     setupTime: '8 Hours Build',
     budgetRange: '₹2.5L – ₹9L',
     guestScale: '100 – 400 Guests',
@@ -373,7 +374,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Delicate floral jhoola, pastel fairytale touches, and auspicious Vedic naming blessings',
     description: 'A charming baby naming celebration with handcrafted antique brass cradles wrapped in fresh jasmine, floral peacocks, customized photo walls, and sweet tables.',
-    image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.firstBdayImg,
     setupTime: '6 Hours Build',
     budgetRange: '₹3L – ₹9L',
     guestScale: '100 – 350 Guests',
@@ -399,7 +400,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'milestones',
     tagline: 'Enchanted castle stage, interactive candy wonderland, and 3D character pavilions',
     description: 'Spectacular milestone celebration engineered with 3D sculpted castle facades, customized floral clouds, toddler play zones, magic illusions, and gourmet live counters.',
-    image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.firstBdayImg,
     setupTime: '12 Hours Build',
     budgetRange: '₹4.5L – ₹18L',
     guestScale: '150 – 500 Guests',
@@ -425,7 +426,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'milestones',
     tagline: 'Honoring six decades with golden kalasam baths, elder comfort, and Vedic homage',
     description: 'A deeply reverent traditional renewal ceremony with auspicious 60-kalasa abhishekam staging, wheelchair-accessible ramp design, and archival family memory galleries.',
-    image: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.shashtiPoorthiImg,
     setupTime: '8 Hours Build',
     budgetRange: '₹4L – ₹15L',
     guestScale: '150 – 450 Guests',
@@ -451,7 +452,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'milestones',
     tagline: 'Under-the-stars poolside staging, bohemian fire pits, and mixology bars',
     description: 'Transforming private estates into boutique luxury resorts with fairy light forests, floating pool decks, live BBQ grills, and acoustic chillout lounges.',
-    image: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.venueAfterImg,
     setupTime: '16 Hours Build',
     budgetRange: '₹6L – ₹25L',
     guestScale: '80 – 300 Guests',
@@ -476,7 +477,7 @@ export const CULTURAL_OCCASIONS: CulturalOccasion[] = [
     verticalId: 'sacred-rituals',
     tagline: 'Ancient temple courtyard ambiance with sacred dhwajasthambham and brass bells',
     description: 'Creating temple-grade sacred environments with real granite aesthetics, bronze bells, thousands of clay diyas, and authentic Agamic ritual infrastructure.',
-    image: 'https://images.unsplash.com/photo-1545232979-fbf68fe9b10d?auto=format&fit=crop&w=1200&q=85',
+    image: LOCAL_IMAGES.mandapBlueprintImg,
     setupTime: '18 Hours Build',
     budgetRange: '₹6L – ₹20L',
     guestScale: '200 – 800 Guests',
@@ -508,12 +509,12 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '3 Days • 5 Bespoke Experiences',
     budgetRange: '₹1.8Cr – ₹3.2Cr',
     archetype: 'Royal Destination Wedding',
-    coverImage: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=85',
+    coverImage: LOCAL_IMAGES.sliderImg1,
     gallery: [
-      'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85'
+      LOCAL_IMAGES.sliderImg1,
+      LOCAL_IMAGES.sliderImg2,
+      LOCAL_IMAGES.sliderImg3,
+      LOCAL_IMAGES.contemporaryWaterImg
     ],
     clientNames: 'Aarav & Meera Singhania',
     clientQuote: 'S Raja Contractor and their atelier did not just build decor; they brought ancient royal hospitality to life with jaw-dropping precision.',
@@ -549,11 +550,11 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '2 Days • 4 Auspicious Muhurthams',
     budgetRange: '₹75L – ₹1.4Cr',
     archetype: 'Sacred Traditional Ceremony',
-    coverImage: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1600&q=85',
+    coverImage: LOCAL_IMAGES.vedicMuhurthamImg,
     gallery: [
-      'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85'
+      LOCAL_IMAGES.vedicMuhurthamImg,
+      LOCAL_IMAGES.haldiImg,
+      LOCAL_IMAGES.sliderImg2
     ],
     clientNames: 'Dr. Siddharth & Keerthi Rao',
     clientQuote: 'Our elders were moved to tears by the authenticity of the Vedic mandapam. The 28-item traditional banana leaf bhojanam was perfection.',
@@ -588,11 +589,11 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '1 Night • 8-Hour High Energy Gala',
     budgetRange: '₹90L – ₹1.8Cr',
     archetype: 'Electrifying Sangeet & Cocktail Gala',
-    coverImage: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1600&q=85',
+    coverImage: LOCAL_IMAGES.sliderImg3,
     gallery: [
-      'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85'
+      LOCAL_IMAGES.sliderImg3,
+      LOCAL_IMAGES.sliderImg1,
+      LOCAL_IMAGES.contemporaryWaterImg
     ],
     clientNames: 'Vikram & Ananya Reddy',
     clientQuote: 'It felt like a private Coachella in the middle of Rajasthan. The kinetic ceiling moving to the beat had everyone speechless.',
@@ -627,10 +628,10 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '2 Days • Farmstead Soiree',
     budgetRange: '₹35L – ₹70L',
     archetype: 'Intimate Celebrations & Anniversaries',
-    coverImage: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85',
+    coverImage: LOCAL_IMAGES.venueAfterImg,
     gallery: [
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=85'
+      LOCAL_IMAGES.venueAfterImg,
+      LOCAL_IMAGES.venueBeforeImg
     ],
     clientNames: 'Rohan & Tara Varma',
     clientQuote: 'Every single guest told us it was the warmest, most elegant wedding they had ever experienced. Pure poetry in every corner.',
@@ -664,10 +665,10 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '1 Grand Night • Monumental Staging',
     budgetRange: '₹1.5Cr – ₹3.5Cr',
     archetype: 'Grand Reception Architecture',
-    coverImage: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1600&q=85',
+    coverImage: LOCAL_IMAGES.contemporaryWaterImg,
     gallery: [
-      'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=85'
+      LOCAL_IMAGES.contemporaryWaterImg,
+      LOCAL_IMAGES.sliderImg1
     ],
     clientNames: 'K. V. Harsha & Sanjana Goud',
     clientQuote: 'Hosting 2,800 dignitaries including Cabinet Ministers and business leaders without a single queue was a triumph of engineering.',
@@ -700,10 +701,10 @@ export const DREAM_WEDDINGS_SHOWCASE: DreamWeddingCaseStudy[] = [
     duration: '3 Days • Beachside Celebrations',
     budgetRange: '₹60L – ₹1.2Cr',
     archetype: 'Private Estate & Farmhouse Celebrations',
-    coverImage: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1600&q=85',
+    coverImage: LOCAL_IMAGES.venueAfterImg,
     gallery: [
-      'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=85',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85'
+      LOCAL_IMAGES.venueAfterImg,
+      LOCAL_IMAGES.venueBeforeImg
     ],
     clientNames: 'Kabir & Rhea Fernandez',
     clientQuote: 'Saying our vows as the sun set into the Arabian Sea with live acoustic guitar and the sound of waves was pure magic.',
@@ -742,7 +743,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       'Dedicated Shadow Butler Squads',
       'Zero-Impact Historical Monument Compliance'
     ],
-    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1000&q=85',
+    image: LOCAL_IMAGES.sliderImg1,
     leadArchitect: 'Rajendra Varma, Head of Destination'
   },
   {
@@ -757,7 +758,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       'Kanchi & Tirupati Classical Nadaswaram Troupes',
       'Auspicious Muhurtham Minute-by-Minute Run of Show'
     ],
-    image: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1000&q=85',
+    image: LOCAL_IMAGES.vedicMuhurthamImg,
     leadArchitect: 'Vidwan S. Sundaram, Vedic Rituals Advisor'
   },
   {
@@ -772,7 +773,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       '3D Holographic Stage & Projection Mapping',
       'A-List Bollywood & International Artist Booking'
     ],
-    image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1000&q=85',
+    image: LOCAL_IMAGES.sliderImg3,
     leadArchitect: 'Arjun Sen, Technical Production Director'
   },
   {
@@ -787,7 +788,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       'Bespoke Master Sculpting (Teak, Brass, Acrylic)',
       '10,000+ Daily Fresh Exotic Stem Capacity'
     ],
-    image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1000&q=85',
+    image: LOCAL_IMAGES.mandapBlueprintImg,
     leadArchitect: 'Devika Singhal, Lead Floral Architect'
   },
   {
@@ -802,7 +803,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       'Climate-Controlled Luxury Banqueting Shamianas',
       'Multi-Tiered Seating & VIP Motorcade Lounges'
     ],
-    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1000&q=85',
+    image: LOCAL_IMAGES.contemporaryWaterImg,
     leadArchitect: 'Vikram Joshi, VP Monumental Production'
   },
   {
@@ -817,7 +818,7 @@ export const CORE_DISCIPLINES: CoreDiscipline[] = [
       'Bespoke Molecular Mixology & Live Grill Counters',
       '100% Post-Event Ecological Restoration'
     ],
-    image: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&q=85',
+    image: LOCAL_IMAGES.venueAfterImg,
     leadArchitect: 'Karan Mehra, Private Estate Specialist'
   }
 ];
@@ -828,8 +829,8 @@ export const METAMORPHOSIS_VENUES: MetamorphosisVenue[] = [
     name: 'The Lake Pichola Courtyard',
     location: 'Udaipur, Rajasthan',
     subtitle: 'From Raw Cobblestone Ground to 10,000 Candlelit Palace Starlight Banquet',
-    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1400&q=80',
-    afterImage: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85',
+    beforeImage: LOCAL_IMAGES.venueBeforeImg,
+    afterImage: LOCAL_IMAGES.venueAfterImg,
     beforeDesc: 'Raw, unpaved lakeside courtyard with exposed masonry, no electrical wiring, and uneven heritage stone flooring.',
     afterDesc: 'Tiered bespoke wooden decking, 2,400 brass candelabras, velvet shamiana drapes, and hidden under-deck cabling with surround acoustic sound.',
     turnaroundTime: '36 Hours Master Transformation',
@@ -846,8 +847,8 @@ export const METAMORPHOSIS_VENUES: MetamorphosisVenue[] = [
     name: 'The Sacred Vedic Mandapam',
     location: 'Taj Falaknuma, Hyderabad',
     subtitle: 'From Bare Lawn to 24K Gold Foil & Cascading Jasmine Temple Sanctum',
-    beforeImage: 'https://images.unsplash.com/photo-1584467735815-f778f274e296?auto=format&fit=crop&w=1400&q=80',
-    afterImage: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1400&q=85',
+    beforeImage: LOCAL_IMAGES.venueBeforeImg,
+    afterImage: LOCAL_IMAGES.sliderImg1,
     beforeDesc: 'Open lawn with harsh afternoon sun and zero shade or spiritual focal point.',
     afterDesc: 'Self-supporting octagonal teakwood mandap with 600kg fresh Madurai jasmine, lotus pools, and shaded VIP pavilions.',
     turnaroundTime: '18 Hours Structural Assembly',
@@ -864,8 +865,8 @@ export const METAMORPHOSIS_VENUES: MetamorphosisVenue[] = [
     name: 'The Mirrored Celestial Gala',
     location: 'Fairmont Ballroom, Jaipur',
     subtitle: 'From Standard Carpeted Hall to Cybernetic Kinetic Mirror Wonderland',
-    beforeImage: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1400&q=80',
-    afterImage: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1400&q=85',
+    beforeImage: LOCAL_IMAGES.venueBeforeImg,
+    afterImage: LOCAL_IMAGES.sliderImg3,
     beforeDesc: 'Standard hotel beige conference hall with low static lighting and plain wallpaper.',
     afterDesc: 'Reflective 40ft glass runway, 120 motorized kinetic DMX winches, 4K curved LED portals, and VIP tiered banquettes.',
     turnaroundTime: '28 Hours High-Tech Rigging',
@@ -884,8 +885,8 @@ export const MANDAP_BLUEPRINTS: MandapBlueprint[] = [
     id: 'mandap-1',
     name: 'The Ashta-Lakshmi Teakwood Mandapam',
     style: 'Ancient Dravidian Vedic Sanctum',
-    renderImage: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
-    blueprintImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    renderImage: LOCAL_IMAGES.mandapBlueprintImg,
+    blueprintImage: LOCAL_IMAGES.mandapBlueprintImg,
     dimensions: {
       height: '18.5 Feet Apex Height',
       span: '28 Feet Diameter Octagonal',
@@ -907,8 +908,8 @@ export const MANDAP_BLUEPRINTS: MandapBlueprint[] = [
     id: 'mandap-2',
     name: 'The Chhatri of Celestial Lotus',
     style: 'Royal Rajasthani Heritage Chhatri',
-    renderImage: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=85',
-    blueprintImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+    renderImage: LOCAL_IMAGES.sliderImg2,
+    blueprintImage: LOCAL_IMAGES.mandapBlueprintImg,
     dimensions: {
       height: '22.0 Feet Jharokha Apex',
       span: '32 Feet Hexagonal Dome',
@@ -928,10 +929,10 @@ export const MANDAP_BLUEPRINTS: MandapBlueprint[] = [
   },
   {
     id: 'mandap-3',
-    name: 'The Modern Crystal Pavilion',
+    name: 'The Contemporary Glass & Crystal Water Mandapam',
     style: 'Contemporary Minimalist Glass & Gold Sanctum',
-    renderImage: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85',
-    blueprintImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    renderImage: LOCAL_IMAGES.contemporaryWaterImg,
+    blueprintImage: LOCAL_IMAGES.contemporaryWaterImg,
     dimensions: {
       height: '16.0 Feet Geometric Frame',
       span: '24 Feet Square Open Span',
